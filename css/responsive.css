@@ -1,0 +1,26 @@
+@media (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+        font-family: 'Kaushan Script';
+    }
+    .banner-button {
+        display: block;
+    }
+    .banner-button a{
+        display: block;
+        margin: 20px auto;
+    }
+}
+@media (max-width: 390px){
+    .fa-city{
+        font-size: 35px;
+        
+    }
+    .fazisi{
+        font-size: 35px;
+        margin-left: 10px;
+    }
+    .logo{
+        top:30px;
+    }
+}
