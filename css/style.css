@@ -1,5 +1,5 @@
 .banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(../images/1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),#005AA7),url(../images/1.jpg);
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -73,7 +73,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background-color: #009688;
+    background-color: #005AA7;
     z-index: 2;
     transition: 0.4s;
     
@@ -88,7 +88,7 @@ nav ul li a{
 #menuBtn{
     width: 50px;
     height: 50px;
-    background-color: #009688;
+    background-color: #005AA7;
     text-align: center;
     position: fixed;
     right: 30px;
@@ -105,9 +105,75 @@ nav ul li a{
     
 }
 
+/* section 1 ETIMOLOGY */
 
+#etimology{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #005AA7;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#005AA7,#fff);
+    position: absolute;
+    top: -20px;
+    left: 0%;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
 
+}
+.title-text h1{
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.etimology-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.etimologys{
+    flex-basis: 50%;
+}
+.etimologys p{
+    font-size: 30px;
 
+}
+.img-box{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+.etimology-img{
+    width: 70%;
+    height: 600px;
+    background-image: url(../images/samegrelo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+/* section2 */
 
 
 /* hover animations */
