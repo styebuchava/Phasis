@@ -47,12 +47,20 @@
         width: 100%;
         height: 400px;
     }
+    .img{
+        width: 300px;
+    height: 330px;
+    }
 
 }
 
 @media (max-width:370px){
     .title-text h1{
         font-size: 30px;
+    }
+    .img{
+        width: 270px;
+        height: 300px;
     }
     
 }
