@@ -289,7 +289,6 @@ nav ul li a{
     width: 80%;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 .about-col{
     flex-basis: 28% ;
@@ -299,37 +298,36 @@ nav ul li a{
     box-shadow: 0 10px 20px 3px #005AA7 ;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
 }
-.icons{
-    display: flex;
-    margin: auto;
-    width: 80%;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+.about-col p {
+    font-size: 18px;
 }
 .fa-network-wired{
-    margin-right: 550px;
     font-size: 25px ;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #005AA7;
+    border-radius: 3px;
+
 }
 
 .fa-leaf{
     font-size: 25px;
     border-radius: 3px;
     color: #005AA7;
+    margin-bottom: 20px;
+    
 }
 .fa-money-check-alt{
-    margin-left: 200px;
-    margin-right: 510px;
     font-size: 25px ;
-    margin-bottom: 10px;
-    
+    margin-bottom: 20px;
     border-radius: 3px;
     color: #005AA7;
+    
 }
-
+.marrginfooter{
+    margin-top: 50px;
+}
 
 /* hover animations */
 
