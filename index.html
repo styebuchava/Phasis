@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="SABA TKEBUCHAVA">
-    <meta name="description" content="everything About Poti Phasis">
-    <meta name="keywords" content="phasis poti Phasis Poti Foti foti samegrelo-zemo svaneti Georgia">
+    <meta name="author" content="SABA TKEBUCHAVA" />
+    <meta name="description" content="everything About Poti Phasis" />
+    <meta
+      name="keywords"
+      content="phasis poti Phasis Poti Foti foti samegrelo-zemo svaneti Georgia"
+    />
     <title>Phasis</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="icon" href="images/aurus.png">
+    <link rel="stylesheet" href="slick.css" />
+    <link rel="icon" href="images/aurus.png" />
     <script
       src="https://kit.fontawesome.com/c518ca1af4.js"
       crossorigin="anonymous"
@@ -40,8 +44,11 @@
             <li><a href="#etimology">ETYMOlOGY</a></li>
             <li><a href="#images">IMAGES</a></li>
             <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#map">MAP</a></li>
             <li><a href="#history">HISTORY</a></li>
+            <li><a href="sign.html">SIGN UP</a></li>
             <li><a href="#footer">ABOUT US</a></li>
+            
           </ul>
         </nav>
       </div>
@@ -55,6 +62,8 @@
         <div class="banner-button">
           <a href="#images"><span></span>Explore</a>
           <a href="#etimology"><span></span>Read More</a>
+          <a href="sign.html"><span></span>Registration</a>
+          
         </div>
       </div>
     </header>
@@ -69,8 +78,8 @@
       <div class="etimology-box">
         <div class="etimologys">
           <p>
-            The name <span style="color: #005aa7">Poti</span> is apparently
-            linked to <span style="color: #005aa7">Phasis</span>, but the
+            The name <span style="color: #31eca5">Poti</span> is apparently
+            linked to <span style="color: #31eca5">Phasis</span>, but the
             etymology is a matter of a scholarly dispute. "Phasis" (Greek:
             Φάσις) is first recorded in Hesiod's Theogony (c. 700 BC) as a name
             of the river, not a town. Since Erich Diehl, 1938, first suggested a
@@ -79,6 +88,7 @@
             been proposed, linking the name to the Proto-Georgian-Zan *Poti,
             Svan *Pasid, and even to a Semitic word, meaning "a gold river"
           </p>
+          >
         </div>
         <div class="img-box">
           <div class="etimology-img"></div>
@@ -93,17 +103,53 @@
         <div></div>
       </div>
 
-      <div class="img-box2" id="IMAGES">
-        <div class="img"></div>
-        <div class="img card1"></div>
-        <div class="img card2"></div>
-        <div class="img card3"></div>
-        <div class="img card4"></div>
-        <div class="img card5"></div>
-        <div class="img card6"></div>
-      </div>
-    </div>
+<div class="slideshow-container">
 
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/5.jpg" style="width:100%">
+   
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="images/4.jpg" style="width:100%">
+   
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/6.jpg" style="width:100%">
+ 
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/2048.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/-3.jpg" style="width:100%">
+ 
+  </div>
+
+ 
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
     <!-- section 3 -->
 
     <section class="section3" id="ABOUT">
@@ -151,10 +197,51 @@
         </div>
       </div>
     </section>
+    <div id="map">
+      <div class="contact-in">
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94673.06961461245!2d41.60468072160629!3d42.138870702004596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405db8f761243629%3A0x8797cfa4fd29f38c!2sPoti!5e0!3m2!1sen!2sge!4v1621874534191!5m2!1sen!2sge"
+            width="100%"
+            height="auto"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="contact-form">
+          <h1>Contact US</h1>
+          <form>
+            <input
+              type="text"
+              placeholder="Name"
+              class="contact-form-txt"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              class="contact-form-txt"
+              required
+            />
+            <textarea
+              placeholder="Message"
+              class="contact-form-textarea"
+            ></textarea>
+            <input
+              type="submit"
+              placeholder="submit"
+              class="contact-form-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
     <section id="history">
       <div class="container">
         <div class="title-text">
-          <p class="text">HISTORY</p>
+          <p class="text1">HISTORY</p>
           <h1>Ancient and medieval history</h1>
         </div>
         <div class="containerin">
@@ -200,7 +287,7 @@
 
       <div class="container">
         <div class="title-text">
-          <p class="text">HISTORY</p>
+          <p class="text1">HISTORY</p>
           <h1>Modern history</h1>
         </div>
         <div class="containerin">
@@ -266,9 +353,17 @@
         </div>
       </div>
       <div class="social-links">
-        <a href="https://www.instagram.com/tkebuchava.saba/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-        <a href="https://www.facebook.com/styebuchava04" target="_blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.youtube.com/channel/UC6vypj9AzPTVDG81kRdjHeg" target="_blank"><i class="fab fa-youtube-square"></i></a>
+        <a href="https://www.instagram.com/tkebuchava.saba/" target="_blank"
+          ><i class="fab fa-instagram-square"></i
+        ></a>
+        <a href="https://www.facebook.com/styebuchava04" target="_blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UC6vypj9AzPTVDG81kRdjHeg"
+          target="_blank"
+          ><i class="fab fa-youtube-square"></i
+        ></a>
         <p>
           <i class="far fa-copyright"></i>Copyright 2021 Html/css Final Project
           // Sabatkebuchava
