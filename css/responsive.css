@@ -93,14 +93,16 @@
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
-  .container-input{
+  .container-input {
     max-width: 100%;
   }
-  form .user-details .input-box{
+  form .user-details .input-box {
     width: 100%;
     margin-bottom: 15px;
   }
-  form .gender-dt .kategoria{
+  form .gender-dt .kategoria {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
   }
@@ -113,9 +115,9 @@
     font-size: 14px;
     text-align: center;
   }
-  .container-input form .user-details{
+  .container-input form .user-details {
     max-height: 300px;
-    overflow-y:  scroll;
+    overflow-y: scroll;
   }
 }
 @media (max-width: 1700px) {
@@ -142,5 +144,6 @@
 @media (max-width: 815px) {
   .history-text {
     height: 450px;
-    overflow-y: scroll;}
+    overflow-y: scroll;
+  }
 }
